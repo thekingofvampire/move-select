@@ -4,6 +4,8 @@
 
 自从用了mint-ui的picker插件之后，感觉效果很好，就想自己写一个联级滑动选择的插件，耗时写了两个星期写出了这个差强人意的插件，还有很多地方需要改进，暂时先上传第一版。等彻底完善之后再上传npm
 
+![image](https://github.com/thekingofvampire/move-select/blob/master/examples/assets/GIF.gif)
+
 #### 参数介绍
 
 ```javascript
