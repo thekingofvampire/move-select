@@ -24,6 +24,9 @@
 ```
 npm install
 ```
+```
+npm run serve
+```
 
 #### 依然存在的问题
 
