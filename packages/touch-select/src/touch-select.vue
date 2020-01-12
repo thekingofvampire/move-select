@@ -11,6 +11,7 @@
                 <p>{{title.name}}</p>
                 <p v-show="title.tips">{{title.tips}}</p>
             </div>
+            
             <!-- 滑动内容 -->
             <div class="wrap_bg">
                 <div class="wrap">
@@ -370,7 +371,6 @@ export default {
         },
         confirm() {
             var that = this;
-            console.log(1111);
             if (this.isBtn) {
                 var value = [];
                 that.option.forEach((ele, index) => {
@@ -461,7 +461,6 @@ export default {
             }
             .option_wrap {
                 flex: 1;
-                // overflow: auto;
                 transform: translateY(80px) translateZ(0);
                 transition: transform 0.1s cubic-bezier(0.39, 0.575, 0.565, 1);
                 // transition-duration: 0.1s;

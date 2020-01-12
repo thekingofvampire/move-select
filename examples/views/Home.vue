@@ -46,6 +46,7 @@ export default {
     methods: {
         valueChange(moveSelect, value) {
             this.moveSelectPicker = moveSelect;
+            console.log(moveSelect, value)
         },
     },
     created() {
@@ -57,7 +58,8 @@ export default {
 				2,
 				this.locationData[0].cities[0].districts
 			);
-		})
+        })
+        // this.GlobalData();
     }
 };
 </script>
