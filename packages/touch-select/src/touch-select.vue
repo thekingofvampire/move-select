@@ -11,7 +11,7 @@
                 <p>{{title.name}}</p>
                 <p v-show="title.tips">{{title.tips}}</p>
             </div>
-            
+             
             <!-- 滑动内容 -->
             <div class="wrap_bg">
                 <div class="wrap">
